@@ -1,0 +1,47 @@
+{
+ "autoname": "CF.######",
+ "creation": "2021-04-19 08:52:42.738345",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "file_type",
+  "file"
+ ],
+ "fields": [
+  {
+   "fieldname": "file_type",
+   "fieldtype": "Select",
+   "label": "File Type",
+   "options": "Proj. Expenses income\nAct Expenses\nBank Balance & Others\nBills Under Collection\nShipment forecast"
+  },
+  {
+   "fieldname": "file",
+   "fieldtype": "Attach",
+   "label": "File"
+  }
+ ],
+ "modified": "2021-04-19 08:56:36.419425",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Cashflow Import Files",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

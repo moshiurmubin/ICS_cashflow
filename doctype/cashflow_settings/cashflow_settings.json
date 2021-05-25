@@ -1,0 +1,67 @@
+{
+ "creation": "2021-05-01 23:14:10.220769",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "usd_rate",
+  "cf_date",
+  "yearly_shipment_qty_akl",
+  "yearly_shipment_qty_agdl",
+  "monthly_shipment_qty__range_start",
+  "monthly_shipment_qty__range_end"
+ ],
+ "fields": [
+  {
+   "fieldname": "usd_rate",
+   "fieldtype": "Data",
+   "label": "USD Rate"
+  },
+  {
+   "fieldname": "cf_date",
+   "fieldtype": "Date",
+   "label": "To be updated CF last actual date"
+  },
+  {
+   "fieldname": "yearly_shipment_qty_akl",
+   "fieldtype": "Data",
+   "label": "Yearly Shipment QTY (AKL)"
+  },
+  {
+   "fieldname": "yearly_shipment_qty_agdl",
+   "fieldtype": "Data",
+   "label": "Yearly Shipment QTY  (AGDL)"
+  },
+  {
+   "fieldname": "monthly_shipment_qty__range_start",
+   "fieldtype": "Data",
+   "label": "Monthly Shipment QTY  Range Start"
+  },
+  {
+   "fieldname": "monthly_shipment_qty__range_end",
+   "fieldtype": "Data",
+   "label": "Monthly Shipment QTY  Range End"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-05-10 17:43:06.441311",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Cashflow Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

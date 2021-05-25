@@ -1,0 +1,120 @@
+{
+ "autoname": "CFC.#####",
+ "creation": "2021-04-10 19:49:39.810569",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "line_no",
+  "col_no",
+  "year",
+  "month",
+  "column",
+  "label",
+  "date1",
+  "date2",
+  "ismonth",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "line_no",
+   "fieldtype": "Data",
+   "label": "Line No"
+  },
+  {
+   "fieldname": "column",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Column",
+   "options": "Projected\nActual"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "CF Columns",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "bold": 1,
+   "fieldname": "date1",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date1",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date2",
+   "fieldtype": "Date",
+   "label": "Date2"
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Label"
+  },
+  {
+   "fieldname": "month",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Month",
+   "options": "January\nFebruary\nMarch\nApril\nMay\nJune\nJuly\nAugust\nSeptember\nOctober\nNovember\nDecember"
+  },
+  {
+   "default": "2021",
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "label": "Year"
+  },
+  {
+   "bold": 1,
+   "fieldname": "col_no",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Col No",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "ismonth",
+   "fieldtype": "Check",
+   "label": "is Month"
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2021-04-13 14:37:29.969423",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Report Columns",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

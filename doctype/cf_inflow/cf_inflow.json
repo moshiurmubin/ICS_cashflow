@@ -1,0 +1,84 @@
+{
+ "autoname": "CFI.#######",
+ "creation": "2021-04-07 18:37:16.573290",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "type",
+  "account",
+  "description",
+  "date",
+  "amount",
+  "active"
+ ],
+ "fields": [
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Data Type",
+   "options": "Actual\nProjected"
+  },
+  {
+   "fieldname": "account",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Desc_Type",
+   "options": "Currnt. Accou.\nMargin (Back to back)\nERQ\nUSD Sales\nMargin A/C\nBuild up (Unifil payment)\nERQ A/C\nBuild Up A/C (Machinery payment)\nBuild Up A/C (Regular)\nForeign Bank Charges and others\nOther Inflow - Margin A/C\nTransfer in ERQ A/C from build up/others\nMargin A/C\nBuild up (Unifil payment)\nERQ A/C\nBuild Up A/C (Machinery payment)\nBuild Up A/C (Regular)\nOther Inflow - Margin A/C\nTransfer in ERQ A/C from build up/others\nShipped Pcs\nNet FOB income\nAverage FOB\nTransfer in from ERQ/Margin/Buildup\nUSD Sales from build up account\nCash Incentive\nOther Inflow\nReceived in L/O Account Bank\nSub-Contract Income\nReceived in CD A/C as STL/LTL\nReceived in CD as OD\nReceived in CD A/C as PSF/PC Loan\nReceived from AKL (Inter Co.)\nReceived from AKL (STL)\nReceived in Mother Account\nReceived in Welfare Account\nReceived in Salary Account\nReceived in  Zakat Account\nIncreased OD Account\nBank Charge/Interest Expenses (OD A/C)\nReceived in L/O Account Cash"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Select",
+   "label": "Description",
+   "options": "Other operational expenses\nSettled Salary\nSalary and Allowances\nSalary and Allowances - Office staff\nMeal & Tiffin Expenses\nOperational Payments\nOther Processing Charge\nC & F Charge\nFreight & Transport\nAir Freight\nBoiler & Generator Running Expenses\nFactory Compliance\nRepair & Maintenance - Factory\nRepair & Maintenance- Factory Machine\nConstruction & Development\nFactory Rent\nElectricity Bill\nGas Bill\nDocumentation & Processing Charge\nTechnical Know How\nLab Test\nInsurance-Import LC\nChemical Expenses\nBank Charge\nSpecial Charge\nCourier(Bulk & Post Order)\nSafety & Health Care- Direct\nTravel Expenses\nAdministrative Salary\nOther Allowance Indirect\nOffice Transportation Expenses\nRent/Rates/Taxes\nPrinting & Stationary\nAIT & VAT\nAdvertising & Business Promotion\nRepair & Maintenence-Office\nTelephone/Fax/Internet\nTraining & Recruitment Expenses\nCanteen Subsidy\nAudit & Accountancy\nLegal & Professional Expenses\nConstruction & Development\nSecurity Expenses\nSales Commission & Others\nSubsidy,Compansation & Festival\nSundry Expenses\nYearly Conference\nDonation\nRemuneration\nPF Contribution\nDepreciation\nBank Interest\nIncentive\nFloat payment\nBonus\nAdvance Salary/Wages\nAdvance Rent\nExtra Overtime\nCapex"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Amount"
+  },
+  {
+   "default": "0",
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Active"
+  }
+ ],
+ "modified": "2021-04-08 14:25:54.855427",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "CF Inflow",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

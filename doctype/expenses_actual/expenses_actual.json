@@ -1,0 +1,103 @@
+{
+ "autoname": "ExA.#########",
+ "creation": "2021-05-21 20:37:10.561284",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "expenses_date",
+  "main_account",
+  "expenses_head",
+  "currency",
+  "amount",
+  "description"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "expenses_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Expenses Date",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "main_account",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Main Account",
+   "options": "Direct/Indirect Wages\nStaff salaries\nEOT\nAdvance Salaries/ Wages\nBonus\nAir Freight\nSub Con Payment\nCapex\nBank Charge(Commercial)\nBank Interest\nOther Expenses\nPayment to AKL (Inter Co.)\nPayment to AKL (STL)\nLock Investment from CD\nLoan Settlement (STL/LTL)\nLoan Settlement (QSF Loan)\nLoan Settlement (PSF / PC)\nSettlement of O/D loan from CD\nPayment from Salary Account\nPayment from Welfare Account\nPayment from Zakat Account\nPayment from L/O Bank Account\nPayment from L/O Cash Account\nTransfer out as contra Salary A/c from Mother A/C\nDecreased OD Account\nExpense ERQ/MARGIN",
+   "search_index": 1
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "fieldname": "expenses_head",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Expenses Head",
+   "options": "Other operational expenses\nSettled Salary\nSalary and Allowances\nSalary and Allowances\nMeal & Tiffin Expenses\nOperational Payments\nOther Processing Charge\nC & F Charge\nFreight & Transport\nBoiler & Generator Running Expenses\nFactory Compliance\nRepair & Maintenance - Factory\nRepair & Maintenance- Factory Machine\nConstruction & Development\nFactory Rent\nElectricity Charge\nGas Charge\nDocumentation & Processing Charge\nTechnical Know How\nLab Test\nInsurance Settlement\nChemical Expenses\nBank Charge\nSpecial Charge\nCourier(Bulk & Post Order)\nSafety & Health Care- Direct\nTravel Expenses\nAdministrative Salary\nCRP Child Care Food Scholarship Security Other Bonus\nOffice Transportation Expenses\nRent/Rates/Taxes\nPrinting & Stationary\nAIT & VAT\nAdvertising & Business Promotion\nRepair & Maintenence-Office\nTelephone/Fax/Internet\nTraining & Recruitment Expenses\nEntertainment Expenses\nAudit & Accountancy\nLegal & Professional Expenses\nResearch & Development\nSecurity Expenses\nSales Commission & Others\nCanteen Subsidy\nFloat payment\nYearly Conference\nDonation\nRemuneration\nPF Contribution\nExtra over time\nAir Freight\nSub contract charge\nFinance charge\nDirector Sir personal\nMD Sir personal\nIncentive\nPetty Cash\nBonus\nAdvance Salary/Wages\nHead Office Payments\nCapex\nLC Payment from margin A/C\nTransfer to CD for extra event from Margin A/C\nTransfer to CD for extra event from build up A/C\nLC Payment for Unifill from build up A/C\nEarly Settlement(EDF-LC) from margin A/C\nTT Payment from ERQ A/C\nForeign Bank Charges from sales proceed\nSource Tax & CRF\nUSD encashment for CD from build up A/C\nLC Payment for Machinery from build up A/C\nTransfer out from build up/others to ERQ\nPayment to AKL (Inter Co.)\nPayment to AKL (STL)\nLock Investment from CD\nLoan Settlement (STL/LTL)\nLoan Settlement (QSF Loan)\nLoan Settlement (PSF / PC)\nSettlement of O/D loan from CD\nPayment from Salary Account\nPayment from Welfare Account\nPayment from Zakat Account\nPayment from L/O Bank Account\nPayment from L/O Cash Account\nTransfer out as contra Salary A/c from Mother A/C\nDecreased OD Account\nExpense ERQ/MARGIN"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "bold": 1,
+   "default": "BDT",
+   "fieldname": "currency",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Currency",
+   "options": "BDT\nUSD"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  }
+ ],
+ "modified": "2021-05-23 00:05:00.864038",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Expenses Actual",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

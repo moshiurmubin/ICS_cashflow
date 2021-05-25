@@ -1,0 +1,300 @@
+{
+ "creation": "2021-04-22 14:34:39.426741",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bank",
+  "status",
+  "buyer",
+  "company_name",
+  "export_lc",
+  "invoice",
+  "exp_no",
+  "exp_date",
+  "style_no",
+  "po_no",
+  "ex_fty_date",
+  "qty_set",
+  "qty_pcs",
+  "unit_price",
+  "value_po_wise",
+  "ttl_qty_set",
+  "ttl_invocie_amount",
+  "country_name",
+  "ship_mode",
+  "payment_term",
+  "expected_realization_date",
+  "revised_realization_date_for_accounts",
+  "noof_days_of_overdue",
+  "tentative_bl_date",
+  "actual_bl_date",
+  "tentative_bank_submission",
+  "noof_days_delay_bank_submission",
+  "bill_no",
+  "bill_date",
+  "bill_amount",
+  "realized_amount",
+  "realized_date",
+  "less_payment",
+  "week_number__ex_fty",
+  "total__fob_income",
+  "original_expected_realisation_date",
+  "expected_fund_realisation_date_revised_1",
+  "expected_fund_realisation_date_revised_2",
+  "expected_fund_realisation_date_revised_3",
+  "expected_fund_realisation_date_for_cash_flow",
+  "payment_rcv_by_bank",
+  "actual_realization_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "bill_no",
+   "fieldtype": "Data",
+   "label": "Bill No"
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "options": "Active\nInactive"
+  },
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Buyer",
+   "search_index": 1
+  },
+  {
+   "fieldname": "export_lc",
+   "fieldtype": "Data",
+   "label": "Export L/C"
+  },
+  {
+   "fieldname": "invoice",
+   "fieldtype": "Data",
+   "label": "Invoice"
+  },
+  {
+   "fieldname": "ex_fty_date",
+   "fieldtype": "Date",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "EX-FTY DATE",
+   "search_index": 1
+  },
+  {
+   "fieldname": "week_number__ex_fty",
+   "fieldtype": "Data",
+   "label": "Week Number  (EX-FTY)"
+  },
+  {
+   "fieldname": "total__fob_income",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": " Total  FOB Income ",
+   "search_index": 1
+  },
+  {
+   "fieldname": "original_expected_realisation_date",
+   "fieldtype": "Data",
+   "label": "Original expected realisation date"
+  },
+  {
+   "fieldname": "expected_fund_realisation_date_revised_1",
+   "fieldtype": "Data",
+   "label": "Expected Fund Realisation Date (Revised 1)"
+  },
+  {
+   "fieldname": "expected_fund_realisation_date_revised_2",
+   "fieldtype": "Data",
+   "label": "Expected Fund Realisation Date (Revised 2)"
+  },
+  {
+   "fieldname": "expected_fund_realisation_date_revised_3",
+   "fieldtype": "Data",
+   "label": "Expected Fund Realisation Date (Revised 3)"
+  },
+  {
+   "fieldname": "expected_fund_realisation_date_for_cash_flow",
+   "fieldtype": "Data",
+   "label": "Expected Fund Realisation Date for Cash Flow"
+  },
+  {
+   "fieldname": "payment_rcv_by_bank",
+   "fieldtype": "Data",
+   "label": "Payment RCV by Bank"
+  },
+  {
+   "fieldname": "actual_realization_date",
+   "fieldtype": "Data",
+   "label": "Actual Realization Date"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "label": "Bank Ref"
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Company Name"
+  },
+  {
+   "fieldname": "exp_no",
+   "fieldtype": "Data",
+   "label": "Exp No"
+  },
+  {
+   "fieldname": "exp_date",
+   "fieldtype": "Date",
+   "label": "Exp Date"
+  },
+  {
+   "fieldname": "style_no",
+   "fieldtype": "Data",
+   "label": "Style No"
+  },
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Data",
+   "label": "PO No"
+  },
+  {
+   "fieldname": "qty_set",
+   "fieldtype": "Data",
+   "label": "QTY-SET"
+  },
+  {
+   "fieldname": "qty_pcs",
+   "fieldtype": "Data",
+   "label": "QTY-PCS"
+  },
+  {
+   "fieldname": "unit_price",
+   "fieldtype": "Data",
+   "label": "UNIT PRICE"
+  },
+  {
+   "fieldname": "value_po_wise",
+   "fieldtype": "Data",
+   "label": "Value PO WISE"
+  },
+  {
+   "fieldname": "ttl_qty_set",
+   "fieldtype": "Data",
+   "label": "TTL QTY-SET"
+  },
+  {
+   "fieldname": "ttl_invocie_amount",
+   "fieldtype": "Data",
+   "label": "TTL INVOCIE AMOUNT"
+  },
+  {
+   "fieldname": "country_name",
+   "fieldtype": "Data",
+   "label": "COUNTRY NAME"
+  },
+  {
+   "fieldname": "ship_mode",
+   "fieldtype": "Data",
+   "label": "SHIP MODE"
+  },
+  {
+   "fieldname": "payment_term",
+   "fieldtype": "Data",
+   "label": "PAYMENT TERM"
+  },
+  {
+   "fieldname": "expected_realization_date",
+   "fieldtype": "Data",
+   "label": "EXPECTED REALIZATION DATE"
+  },
+  {
+   "fieldname": "revised_realization_date_for_accounts",
+   "fieldtype": "Data",
+   "label": "REVISED REALIZATION DATE FOR ACCOUNTS"
+  },
+  {
+   "fieldname": "noof_days_of_overdue",
+   "fieldtype": "Data",
+   "label": "NO.OF DAYS OF OVERDUE"
+  },
+  {
+   "fieldname": "tentative_bl_date",
+   "fieldtype": "Data",
+   "label": "TENTATIVE BL DATE"
+  },
+  {
+   "fieldname": "actual_bl_date",
+   "fieldtype": "Data",
+   "label": "Actual BL Date"
+  },
+  {
+   "fieldname": "tentative_bank_submission",
+   "fieldtype": "Data",
+   "label": "TENTATIVE BANK SUBMISSION"
+  },
+  {
+   "fieldname": "noof_days_delay_bank_submission",
+   "fieldtype": "Data",
+   "label": "NO.OF DAYS DELAY BANK SUBMISSION"
+  },
+  {
+   "fieldname": "bill_date",
+   "fieldtype": "Data",
+   "label": "BILL DATE"
+  },
+  {
+   "fieldname": "bill_amount",
+   "fieldtype": "Data",
+   "label": "BILL AMOUNT"
+  },
+  {
+   "fieldname": "realized_amount",
+   "fieldtype": "Data",
+   "label": "REALIZED AMOUNT"
+  },
+  {
+   "fieldname": "realized_date",
+   "fieldtype": "Data",
+   "label": "REALIZED DATE"
+  },
+  {
+   "fieldname": "less_payment",
+   "fieldtype": "Data",
+   "label": "LESS PAYMENT"
+  }
+ ],
+ "modified": "2021-05-21 17:55:46.613469",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Bills Under Collection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,105 @@
+{
+ "autoname": "CFB.######",
+ "creation": "2021-04-07 19:49:55.027876",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer_name",
+  "payment_terms",
+  "realised_day",
+  "early_payment",
+  "bank",
+  "margin",
+  "build_up_unifill",
+  "erq",
+  "buildup_machine",
+  "buildup_regular"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Buyer Name"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "realised_day",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Credit Period  "
+  },
+  {
+   "fieldname": "early_payment",
+   "fieldtype": "Data",
+   "label": "Early payment"
+  },
+  {
+   "fieldname": "bank",
+   "fieldtype": "Link",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Bank",
+   "options": "Bank Ratio"
+  },
+  {
+   "fieldname": "margin",
+   "fieldtype": "Data",
+   "label": "Margin"
+  },
+  {
+   "fieldname": "build_up_unifill",
+   "fieldtype": "Data",
+   "label": "Build Up Unifill"
+  },
+  {
+   "fieldname": "erq",
+   "fieldtype": "Data",
+   "label": "ERQ"
+  },
+  {
+   "fieldname": "buildup_machine",
+   "fieldtype": "Data",
+   "label": "Buildup Machine"
+  },
+  {
+   "fieldname": "buildup_regular",
+   "fieldtype": "Data",
+   "label": "Buildup Regular"
+  }
+ ],
+ "modified": "2021-04-27 20:24:49.961613",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Buyers",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

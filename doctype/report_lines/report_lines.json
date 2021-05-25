@@ -1,0 +1,98 @@
+{
+ "autoname": "CFRL.####",
+ "creation": "2021-04-09 23:03:00.212914",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "report_name",
+  "group_no",
+  "group_name",
+  "line_no",
+  "line_name",
+  "unit",
+  "opning_balance",
+  "line_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "report_name",
+   "fieldtype": "Select",
+   "label": "Report Name",
+   "options": "CURRENT ACCOUNT CASHFLOW\nERQ/MARGIN CASHFLOW",
+   "reqd": 1
+  },
+  {
+   "fieldname": "group_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Group No",
+   "search_index": 1
+  },
+  {
+   "fieldname": "group_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Group Name",
+   "search_index": 1
+  },
+  {
+   "fieldname": "line_no",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Line No",
+   "search_index": 1
+  },
+  {
+   "fieldname": "line_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Line Name"
+  },
+  {
+   "default": "USD",
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "opning_balance",
+   "fieldtype": "Data",
+   "label": "Opning Balance"
+  },
+  {
+   "fieldname": "line_number",
+   "fieldtype": "Int",
+   "label": "Line Number"
+  }
+ ],
+ "modified": "2021-04-23 04:59:04.843880",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Report Lines",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

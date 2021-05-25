@@ -1,0 +1,75 @@
+{
+ "autoname": "Prompt",
+ "creation": "2021-04-07 19:54:35.836527",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "bank",
+  "margin",
+  "bildup_unifill",
+  "erq",
+  "bildup_machine",
+  "bildup_regular"
+ ],
+ "fields": [
+  {
+   "fieldname": "bank",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Bank",
+   "search_index": 1
+  },
+  {
+   "fieldname": "margin",
+   "fieldtype": "Data",
+   "label": "Margin"
+  },
+  {
+   "fieldname": "bildup_unifill",
+   "fieldtype": "Data",
+   "label": "Bildup Unifill"
+  },
+  {
+   "fieldname": "erq",
+   "fieldtype": "Data",
+   "label": "ERQ"
+  },
+  {
+   "fieldname": "bildup_machine",
+   "fieldtype": "Data",
+   "label": "Bildup Machine"
+  },
+  {
+   "fieldname": "bildup_regular",
+   "fieldtype": "Data",
+   "label": "Bildup Regular"
+  }
+ ],
+ "modified": "2021-04-10 03:06:40.641261",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Bank Ratio",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

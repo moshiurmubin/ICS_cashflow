@@ -1,0 +1,241 @@
+{
+ "autoname": "SF.########",
+ "creation": "2021-04-22 14:19:24.662126",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "buyer",
+  "style",
+  "order_qty",
+  "fob_price",
+  "dept",
+  "type",
+  "team",
+  "oc",
+  "fobpc",
+  "cmdzest",
+  "griddz",
+  "smvtotal",
+  "yrndzest",
+  "acsdzest",
+  "po_no",
+  "color",
+  "po_qty",
+  "shipped_qty",
+  "exfty_date",
+  "revised_qty",
+  "original_shipment_date",
+  "expected_shipment_date_revised_1",
+  "handoverex_factory_date",
+  "expected_fund_realisation_date_original",
+  "last_updated_handoverex_factory_date",
+  "actual_handoverex_factory_date",
+  "considerable_handoverex_factory_date",
+  "last_updated_realization_date",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "buyer",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Buyer",
+   "search_index": 1
+  },
+  {
+   "fieldname": "style",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Style",
+   "search_index": 1
+  },
+  {
+   "fieldname": "order_qty",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Order Qty"
+  },
+  {
+   "fieldname": "revised_qty",
+   "fieldtype": "Data",
+   "label": "Revised Qty"
+  },
+  {
+   "fieldname": "fob_price",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "FOB Price",
+   "search_index": 1
+  },
+  {
+   "fieldname": "original_shipment_date",
+   "fieldtype": "Data",
+   "label": "Original Shipment Date"
+  },
+  {
+   "fieldname": "expected_shipment_date_revised_1",
+   "fieldtype": "Data",
+   "label": "Expected Shipment Date (Revised-1)"
+  },
+  {
+   "fieldname": "handoverex_factory_date",
+   "fieldtype": "Data",
+   "label": "Handover/Ex-factory date"
+  },
+  {
+   "fieldname": "expected_fund_realisation_date_original",
+   "fieldtype": "Data",
+   "label": "Expected Fund Realisation Date (Original)"
+  },
+  {
+   "fieldname": "last_updated_handoverex_factory_date",
+   "fieldtype": "Data",
+   "label": "Last updated handover/Ex-factory date"
+  },
+  {
+   "fieldname": "actual_handoverex_factory_date",
+   "fieldtype": "Data",
+   "label": "Actual handover/Ex-factory date"
+  },
+  {
+   "fieldname": "considerable_handoverex_factory_date",
+   "fieldtype": "Data",
+   "label": "Considerable handover/Ex-factory date"
+  },
+  {
+   "fieldname": "last_updated_realization_date",
+   "fieldtype": "Data",
+   "label": "Last updated realization date"
+  },
+  {
+   "fieldname": "dept",
+   "fieldtype": "Data",
+   "label": "Dept"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "GG"
+  },
+  {
+   "fieldname": "team",
+   "fieldtype": "Data",
+   "label": "Team"
+  },
+  {
+   "fieldname": "oc",
+   "fieldtype": "Data",
+   "label": "OC"
+  },
+  {
+   "fieldname": "fobpc",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "FOB/PC"
+  },
+  {
+   "fieldname": "cmdzest",
+   "fieldtype": "Data",
+   "label": "CM/DZ(Est)"
+  },
+  {
+   "fieldname": "griddz",
+   "fieldtype": "Data",
+   "label": "GRID/DZ"
+  },
+  {
+   "fieldname": "smvtotal",
+   "fieldtype": "Data",
+   "label": "SMV(total)"
+  },
+  {
+   "fieldname": "yrndzest",
+   "fieldtype": "Data",
+   "label": "Yrn/DZ(Est)"
+  },
+  {
+   "fieldname": "acsdzest",
+   "fieldtype": "Data",
+   "label": "Acs/DZ(Est)"
+  },
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Data",
+   "label": "PO No"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Data",
+   "label": "Color"
+  },
+  {
+   "fieldname": "po_qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "PO Qty"
+  },
+  {
+   "fieldname": "shipped_qty",
+   "fieldtype": "Data",
+   "label": "Shipped Qty"
+  },
+  {
+   "fieldname": "exfty_date",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Ex-Fty Date",
+   "search_index": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Active\nInactive"
+  }
+ ],
+ "modified": "2021-05-10 20:47:41.081947",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Shipment Forecast",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

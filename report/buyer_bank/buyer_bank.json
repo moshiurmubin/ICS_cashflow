@@ -1,0 +1,25 @@
+{
+ "add_total_row": 0,
+ "creation": "2021-04-08 07:45:33.993373",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-04-08 08:10:07.259073",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "Buyer Bank",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select * from `tabBuyers` as buyers, `tabBank Ratio` as ratio where buyers.Bank = ratio.name",
+ "ref_doctype": "Buyers",
+ "report_name": "Buyer Bank",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

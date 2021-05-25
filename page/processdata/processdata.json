@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2021-04-09 17:01:17.987470",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2021-04-09 17:02:34.653041",
+ "modified_by": "Administrator",
+ "module": "Cashflowpro",
+ "name": "processdata",
+ "owner": "Administrator",
+ "page_name": "ProcessData",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Process Data"
+}
